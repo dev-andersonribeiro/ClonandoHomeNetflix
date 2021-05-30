@@ -1,0 +1,47 @@
+
+.btn-medium {
+       
+    width: 80px;
+    height: 35px;
+    background: #D81F26;
+    border-radius: 3px;
+    color: white;
+    border: none;
+
+    /*Font style*/
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+   
+}
+
+.btn-medium:hover {
+    background: #F40612 ;
+}
+
+.btn-larger {
+    width: 182px;
+    height: 60px; 
+    background: #D81F26;
+    color: white;  
+    border: none;
+
+    /*Font style*/
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.btn-larger:hover {
+    background: #F40612 ;
+}
+
+.btn-larger img {
+    width: 8.75px;
+    height: 16.25;
+    margin-left: 13px;
+}

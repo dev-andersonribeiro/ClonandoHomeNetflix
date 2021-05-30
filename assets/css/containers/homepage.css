@@ -1,0 +1,175 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+
+    padding-top: 1.7rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+
+.header-top .header-logo img {
+    width: 130px;
+}
+
+.header-top .header-content-r .select-group{
+    margin-right: 30px;
+}
+
+.main {
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main .main-content h1 {
+    margin-bottom: 22px;
+}
+
+.main .main-content h2 {
+    margin-bottom: 22px;
+}
+
+.main .main-content p {
+    margin-bottom: 30px;
+}
+
+.main .form-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card {
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 8rem;
+    margin-bottom: 0;
+  
+    color: #fff;
+}
+
+.animation-card .animation-card-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.animation-card.flipped .animation-card-container{
+    flex-flow: row-reverse;
+}
+
+
+.animation-card .animation-card-container{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    
+    flex: 0 1 auto;
+   
+    box-sizing: border-box;
+}
+
+.animation-card.watchOnTv .card-text {
+    margin: -5% 0;
+}
+
+.animation-card .card-text {
+    width: 52%;
+    height: 100%;
+    
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+}
+
+.card-title {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+.card-subtitle, .card-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.animation-card .card-img-container {
+    width: 48%;
+    height: 100%;
+    
+    display: flex;
+   
+    flex: 0 1 auto;
+    
+    box-sizing: border-box;
+}
+
+.animation-card.watchOnTv .card-animation-container {
+    margin: -10% -5% -5% 0;
+}
+
+.animation-card .card-animation-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.animation-card.watchOnDevice .card-img, .animation-card.watchOnTv .card-img {
+    position: relative;
+    z-index: 2;
+}
+
+.animation-card.watchOnTv .card-animation {
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.center-pixel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.animation-card.flipped .animation-card-container .card-text {
+    padding: 0 0 0 3rem;
+}
+
+.main.news-form {
+    height: 400px;
+    position: relative;
+    margin-bottom: 0;
+
+    color: #ffffff;
+}
+
+.news-container h3 {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
